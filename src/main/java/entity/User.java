@@ -20,11 +20,18 @@ public class User {
 		this.userName = userName;
 		this.password = password;
 	}
-	
+
 	public User(String userName, String password) {
 		super();
 		this.userName = userName;
 		this.password = password;
+	}
+
+	public User(String userName, String password, String email) {
+		super();
+		this.userName = userName;
+		this.password = password;
+		this.email = email;
 	}
 
 	public int getId() {
